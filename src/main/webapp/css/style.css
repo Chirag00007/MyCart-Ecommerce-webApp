@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12-Oct-2022, 11:50:50 am
+    Author     : CHIRAG VOHRA
+*/
+.custom-bg{
+    background: #6200EA;
+}
+
+.list-group-item.active{
+     background: #6200EA;
+     border-color: #6200EA;
+     
+}
+.discount-label{
+}
+#toast{
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left : 50%;
+    margin-left: -120px;
+    background: #333;
+    padding :15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+    
+}
+#toast.display{
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+@keyframes fadeIn{
+    from{
+        bottom:0;
+        opacity:0;
+    }
+    to{
+        bottom:30px;
+        opacity:1;
+    }
+}
+@keyframes fadeOut{
+    from{
+         bottom:30px;
+        opacity:1;
+    }
+    to{
+         bottom:0;
+        opacity:0;
+    }
+}
