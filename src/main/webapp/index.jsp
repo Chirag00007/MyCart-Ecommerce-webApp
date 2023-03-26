@@ -17,7 +17,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>My Cart - Home</title>
-       
+
         <%@include file="common_css_js/commonForAll.jsp" %>
         <style>
             .product-card:hover{
@@ -25,7 +25,7 @@
                 cursor: pointer;
             }
         </style>
-        
+
     </head>
     <body>
         <%@include file="common_css_js/navbar.jsp" %>
@@ -100,10 +100,10 @@
 
                                     </div> 
                                     <div class="card-footer text-center">
-                                        <button class="btn custom-bg text-white text-center" onclick="add_to_cart( <%=p.getpId()%>, '<%= p.getpName()%>', <%= p.getPriceAfterApplyingDiscount()%> )">Add to cart</button>
+                                        <button class="btn custom-bg text-white text-center" onclick="add_to_cart(<%=p.getpId()%>, '<%= p.getpName()%>', <%= p.getPriceAfterApplyingDiscount()%>)">Add to cart</button>
                                         <button class="btn btn-outline-success text-center" >&#x20B9; <b><%= p.getPriceAfterApplyingDiscount()%>/-</b> <span style="font-size: 12px!important;
-                                                                                                                                                       font-style: italic!important;
-                                                                                                                                                       text-decoration: line-through!important;" class="text-secondary discount-label">&#x20B9; <%= p.getpPrice()%> <%=p.getpQuanntiy()%>% Off</span> </button>
+                                                                                                                                                             font-style: italic!important;
+                                                                                                                                                             text-decoration: line-through!important;" class="text-secondary discount-label">&#x20B9; <%= p.getpPrice()%> <%=p.getpQuanntiy()%>% Off</span> </button>
                                     </div>
 
 
@@ -135,6 +135,6 @@
 
 
         </div>
-                                <%@include file="common_css_js/common_modals.jsp" %>
+        <%@include file="common_css_js/common_modals.jsp" %>
     </body>
 </html>

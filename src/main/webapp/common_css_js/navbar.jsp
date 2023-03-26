@@ -13,7 +13,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark custom-bg ">
     
 
-        <a class="navbar-brand" href="index.jsp"><span class="fa fa-tv mr-5" style="color: #FDD835; font-weight: bolder; font-size: 35px">My Cart </span></a>
+        <a class="navbar-brand" id="navLogo" href="index.jsp"><span id="navLogo" class="fa fa-tv mr-5" style="color: #FDD835; font-weight: bolder; font-size: 35px">My Cart </span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

@@ -37,6 +37,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     visibility: visible;
     animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
 }
+#navLogo{
+    margin-left: 2vmax;
+}
 @keyframes fadeIn{
     from{
         bottom:0;
